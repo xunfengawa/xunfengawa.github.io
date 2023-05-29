@@ -630,5 +630,13 @@
         "Link_str": "观看视频(开大)",
         "Link2": "https://www.bilibili.com/video/BV1Bo4y1g7SN?t=570.7",
         "Link_str2": "观看视频(直接飞)"
+    },
+    {
+        "Name": "伊卡洛斯船头(罗芭)",
+        "Cord": "[241,619.375]",
+        "Link": "https://www.bilibili.com/video/BV1214y1Z7Pr?t=37.9",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]

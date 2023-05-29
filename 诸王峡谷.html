@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apex S17奥林匹斯大佐点互动地图</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      .leaflet-container {
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map_KingsCanyon"></div>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f2cad731b22c8cb072adac5dd1cd90d4";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    
+    <script>
+      //地图加载
+      const map_KingsCanyon = L.map('map_KingsCanyon',{
+        center:[0.0, 0.0],
+        zoom: 0,
+        minZoom: -1,
+        crs: L.CRS.Simple
+      });
+      const bounds = [[0, 0], [1000, 1000]];
+	    const image = L.imageOverlay('./images/maps/诸王峡谷.jpg', bounds).addTo(map_KingsCanyon);
+
+      map_KingsCanyon.fitBounds(bounds);
+
+      //鼠标操作      
+      map_KingsCanyon.on('click', e=>{
+        var lat = e.latlng.lat;
+        var lng = e.latlng.lng;
+        var string_latlng = '[' + lat + ','+ lng + ']';
+
+        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_KingsCanyon);
+      });
+      
+      //坐标点
+      const dotIcon = L.Icon.extend({
+        options:{
+          iconSize:     [10, 10], // size of the icon
+          //popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+        }
+      });
+      const red_dot = new dotIcon({iconUrl: './images/icons/red_dot.png'});
+      
+      function printDot(data) {
+        for(i=0;i<data.length;i++){
+          if(data[i]["Link"] != ''){
+            var html = data[i]["Name"]+'<br><a href="'+data[i]["Link"]+'" target="_blank" rel="noopener noreferrer">'+data[i]["Link_str"]+'</a>';
+          }
+          else{
+            var html = data[i]["Name"]+'<br>暂无视频';
+          }
+          if(data[i]["Link2"] != ''){
+            html+='<br><a href="'+data[i]["Link2"]+'" target="_blank" rel="noopener noreferrer">'+data[i]["Link_str2"]+'</a>';
+          }
+          var cord_str = data[i]["Cord"].slice(1,-1)
+          var cord_str_list = cord_str.split(',')
+          var cord = [Number(cord_str_list[0]),Number(cord_str_list[1])]
+          L.marker(cord, {icon: red_dot,riseOnHover: true}).addTo(map_KingsCanyon).bindPopup(html);
+        }
+        console.log("成功加载了"+data.length+"个点");
+      }
+
+      var url = "./locs/KingsCanyon.json"
+      var request = new XMLHttpRequest();
+      request.open("get", url);
+      request.send(null);
+      request.onload = function () {
+          if (request.status == 200) {
+              var data = JSON.parse(request.responseText);
+              printDot(data);
+          }
+      }
+    </script>
+  </body>
+</html>
