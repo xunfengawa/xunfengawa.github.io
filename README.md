@@ -1,7 +1,26 @@
 # **Apex 17赛季 大佐点位互动地图**  
-[<font size=5>世界尽头</font>](https://xunfengawa.github.io/%E4%B8%96%E7%95%8C%E5%B0%BD%E5%A4%B4.html)  
-[<font size=5>奥林匹斯</font>](https://xunfengawa.github.io/%E5%A5%A5%E6%9E%97%E5%8C%B9%E6%96%AF.html)  
-[<font size=5>诸王峡谷</font>](https://xunfengawa.github.io/%E8%AF%B8%E7%8E%8B%E5%B3%A1%E8%B0%B7.html)  
+
+<a href="https://xunfengawa.github.io/%E4%B8%96%E7%95%8C%E5%B0%BD%E5%A4%B4.html">
+    <img border="0" src="./images/icons/世界尽头缩略图.png"
+        alt="这是一张世界尽头缩略图"
+        width="200"
+        height="200"
+    >
+</a>
+<a href="https://xunfengawa.github.io/%E5%A5%A5%E6%9E%97%E5%8C%B9%E6%96%AF.html">
+    <img border="0" src="./images/icons/奥林匹斯缩略图.png"
+        alt="这是一张奥林匹斯缩略图"
+        width="200"
+        height="200"
+    >
+</a>
+<a href="https://xunfengawa.github.io/%E8%AF%B8%E7%8E%8B%E5%B3%A1%E8%B0%B7.html">
+    <img border="0" src="./images/icons/诸王峡谷缩略图.png"
+        alt="这是一张诸王峡谷缩略图"
+        width="200"
+        height="200"
+    >
+</a>  
 
 演示视频：[**[Apex]17赛季 大佐点互动地图发布**](https://www.bilibili.com/video/BV1So4y1T7BJ/)  
 *欢迎提交未收录的点位坐标和视频链接哟*  
