@@ -18,9 +18,56 @@
         max-width: 100%;
         max-height: 100%;
       }
+      #changemap {
+        width: 100vw;
+        height: 10vh;
+        position: fixed;
+        z-index: 9999;
+        bottom: 60px;
+      }
+      .map_list {
+        position: fixed;
+        width: 120px;
+        height: 60px;
+        border-radius: 8px;
+        background-color: #7a7a7a;
+        line-height: 60px;
+        font-size: 24px;
+        text-align: center;
+        color: #ffffff;
+        vertical-align: middle;
+        opacity: 0.8;
+      }
+      .text {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .current{
+        color: #ffffff;
+        border-radius: 8px;
+        background-color: #525252;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
+    <div id="changemap">
+      <div class="map_list" style="left:26.5%;">
+        <a href="https://xunfengawa.github.io/%E4%B8%96%E7%95%8C%E5%B0%BD%E5%A4%B4.html" class="text">
+          世界尽头
+        </a>
+      </div>
+      <div class="map_list" style="left:46.5%;">
+        <a href="https://xunfengawa.github.io/%E5%A5%A5%E6%9E%97%E5%8C%B9%E6%96%AF.html" class="text">
+          奥林匹斯
+        </a>
+      </div>
+      <div class="map_list" style="left:66.5%;">
+        <div class="current">
+          诸王峡谷
+        </div>
+      </div>
+    </div>
     <div id="map_KingsCanyon"></div>
     <script>
       var _hmt = _hmt || [];
