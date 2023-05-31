@@ -886,5 +886,21 @@
         "Link_str": "暂无视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "工作台终点站口3",
+        "Cord": "[371,272.25]",
+        "Link": "https://www.bilibili.com/video/BV1d8411Z7Eg?t=226.2",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "收割机岩浆桥下",
+        "Cord": "[423.6875,536.0625]",
+        "Link": "https://www.bilibili.com/video/BV1d8411Z7Eg?t=253.6",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]

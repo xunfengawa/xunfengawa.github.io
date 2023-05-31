@@ -358,5 +358,173 @@
         "Link_str": "观看视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "悬崖树叶后(适合秘客)",
+        "Cord": "[554,403.5]",
+        "Link": "https://www.bilibili.com/video/BV15L411z7GU?t=130.7",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "悬崖树叶后2",
+        "Cord": "[848.125,298.375]",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "悬崖外沿",
+        "Cord": "[135.25,667.75]",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "高台玻璃外",
+        "Cord": "[246.25,611.25]",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "沼泽悬崖下",
+        "Cord": "[360.125,875.625]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=0.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "地图室悬崖下",
+        "Cord": "[195.375,770]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=78.9",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "地图室边瀑布壁",
+        "Cord": "[170,700.625]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=156.8",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "大石小石点边",
+        "Cord": "[484.125,511.125]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=206.2",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "鸡窝峡谷河道口1",
+        "Cord": "[500.5,455.875]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=285.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "沙漠歪脖子树1",
+        "Cord": "[415,341.75]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=349.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "钻机连接立方边缘",
+        "Cord": "[692.8125,900.4375]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=375.1",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "钻机柱子1",
+        "Cord": "[716.5,920.5]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=430.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "管道平台上方小支架",
+        "Cord": "[702.5,897.75]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=452.6",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "钻机柱子2",
+        "Cord": "[748,920.625]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=465.8",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "钻机外悬崖1",
+        "Cord": "[714.5,842.625]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=488.2",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "径流骨架1",
+        "Cord": "[645.75,195.75]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=507.8",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "大坡山壁1",
+        "Cord": "[631.875,518.8125]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=654.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "高台火炮间山壁1",
+        "Cord": "[748,523.75]",
+        "Link": "https://www.bilibili.com/video/BV1pM4y1e7Pd?t=672.9",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "沼泽瀑布悬崖下",
+        "Cord": "[569.375,890.625]",
+        "Link": "https://www.bilibili.com/video/BV1d8411Z7Eg?t=26.9",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "钻机边缘房子下",
+        "Cord": "[758.25,907.125]",
+        "Link": "https://www.bilibili.com/video/BV1d8411Z7Eg?t=53.8",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "空军基地地下挂壁",
+        "Cord": "[465,120.375]",
+        "Link": "https://www.bilibili.com/video/BV1d8411Z7Eg?t=124.4",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]
