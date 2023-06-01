@@ -790,5 +790,13 @@
         "Link_str": "观看视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "终端南侧旗帜后",
+        "Cord": "[336.0625,423.875]",
+        "Link": "https://www.bilibili.com/video/BV1Tg4y1F7UX?t=134.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]

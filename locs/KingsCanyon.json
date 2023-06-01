@@ -526,5 +526,13 @@
         "Link_str": "观看视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "中继站悬崖壁",
+        "Cord": "[807,768.125]",
+        "Link": "https://www.bilibili.com/video/BV1DN41117w4?t=8.6",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]
