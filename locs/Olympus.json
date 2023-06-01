@@ -686,5 +686,109 @@
         "Link_str": "观看视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "电网吊车1",
+        "Cord": "[732.125,500.875]",
+        "Link": "https://www.bilibili.com/video/BV1Qc411g75i?t=23.4",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "电网吊车2",
+        "Cord": "[660.875,542.875]",
+        "Link": "https://www.bilibili.com/video/BV1Qc411g75i?t=50.4",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "电网外挂壁",
+        "Cord": "[797,472.25]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=34.3",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "拳击台天花板(需要跳板)",
+        "Cord": "[696.5,385.125]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=59.6",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "不动产高架下山壁",
+        "Cord": "[514.625,369.125]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=95.3",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "不动产复活台紫藤",
+        "Cord": "[491.25,259.375]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=105.1",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "极乐世界外墙",
+        "Cord": "[393.625,88.875]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=116.7",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "光明顶下地面小点",
+        "Cord": "[492.3125,456.75]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=147.0",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "哈蒙德屋檐",
+        "Cord": "[462.75,499.875]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=196.1",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "哈蒙德假车后",
+        "Cord": "[419.5,536.125]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=212.2",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "终端南侧柱子后",
+        "Cord": "[346.375,377.125]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=270.8",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "终端东南侧草丛(一般)",
+        "Cord": "[369.375,553.25]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=282.5",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "伊卡洛斯船尾东侧(一般)",
+        "Cord": "[128.09375,716.90625]",
+        "Link": "https://www.bilibili.com/video/BV1bM4y1i7ih?t=392.4",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]
