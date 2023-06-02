@@ -798,5 +798,53 @@
         "Link_str": "观看视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "电网太阳能板",
+        "Cord": "[774.625,546.45]",
+        "Link": "https://www.bilibili.com/video/BV1514y1D7ga?t=237.0",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "电网门上凸起",
+        "Cord": "[770,480.712]",
+        "Link": "https://www.bilibili.com/video/BV1514y1D7ga?t=269.8",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "电网门支柱",
+        "Cord": "[788.25,486.75]",
+        "Link": "https://www.bilibili.com/video/BV1514y1D7ga?t=303.2",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "电网货车底下",
+        "Cord": "[769.5,505]",
+        "Link": "https://www.bilibili.com/video/BV1514y1D7ga?t=344.2",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "光明顶山壁(优)",
+        "Cord": "[492.5,455.5]",
+        "Link": "https://www.bilibili.com/video/BV1514y1D7ga?t=404.4",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "花园能源库通道3",
+        "Cord": "[530.625,692.5]",
+        "Link": "https://www.bilibili.com/video/BV1514y1D7ga?t=426.3",
+        "Link_str": "观看视频1",
+        "Link2": "https://www.bilibili.com/video/BV1514y1D7ga?t=470.5",
+        "Link_str2": "观看视频2"
     }
 ]
