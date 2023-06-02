@@ -910,5 +910,21 @@
         "Link_str": "观看视频(同类型)",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "碎片轨道下无敌点",
+        "Cord": "[512.5,537.75]",
+        "Link": "https://www.bilibili.com/video/BV14s4y1q7RG?t=68.0",
+        "Link_str": "观看视频(罗芭)",
+        "Link2": "",
+        "Link_str2": ""
+    },
+    {
+        "Name": "震中架子孔",
+        "Cord": "[726.25,623.25]",
+        "Link": "https://www.bilibili.com/video/BV14s4y1q7RG?t=100.9",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]

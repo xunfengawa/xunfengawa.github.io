@@ -534,5 +534,13 @@
         "Link_str": "观看视频",
         "Link2": "",
         "Link_str2": ""
+    },
+    {
+        "Name": "空军基地悬崖外墙",
+        "Cord": "[510.25,117.875]",
+        "Link": "https://www.bilibili.com/video/BV14s4y1q7RG?t=26.0",
+        "Link_str": "观看视频",
+        "Link2": "",
+        "Link_str2": ""
     }
 ]
