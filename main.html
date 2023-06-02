@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apex S17大佐点互动地图</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      .leaflet-container {
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f2cad731b22c8cb072adac5dd1cd90d4";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    
+    <script>
+      //组
+      const group_WorldsEdge = L.layerGroup();
+      const group_Olympus = L.layerGroup();
+      const group_KingsCanyon = L.layerGroup();
+      const bounds = [[0, 0], [1000, 1000]];
+      //世界尽头
+	    map_WorldsEdge = L.imageOverlay('./images/maps/世界尽头.jpg', bounds).addTo(group_WorldsEdge);
+      //奥林匹斯
+	    map_Olympus = L.imageOverlay('./images/maps/奥林匹斯.jpg', bounds).addTo(group_Olympus);
+      //诸王峡谷
+	    map_KingsCanyon = L.imageOverlay('./images/maps/诸王峡谷.jpg', bounds).addTo(group_KingsCanyon);
+
+      //鼠标操作     
+      map_WorldsEdge.on('click', e=>{
+        var lat = e.latlng.lat;
+        var lng = e.latlng.lng;
+        var string_latlng = '[' + lat + ','+ lng + ']';
+        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_WorldsEdge);
+      });         
+      map_Olympus.on('click', e=>{
+        var lat = e.latlng.lat;
+        var lng = e.latlng.lng;
+        var string_latlng = '[' + lat + ','+ lng + ']';
+        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_Olympus);
+      });
+      map_KingsCanyon.on('click', e=>{
+        var lat = e.latlng.lat;
+        var lng = e.latlng.lng;
+        var string_latlng = '[' + lat + ','+ lng + ']';
+        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_KingsCanyon);
+      });
+      
+      //坐标点
+      const dotIcon = L.Icon.extend({
+        options:{
+          iconSize:     [10, 10], // size of the icon
+          //popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+        }
+      });
+      const red_dot = new dotIcon({iconUrl: './images/icons/red_dot.png'});
+
+      //加点入组函数
+      function addDot2Group(data,group) {
+        for(i=0;i<data.length;i++){
+          if(data[i]["Link"] != ''){
+            var html = data[i]["Name"]+'<br><a href="'+data[i]["Link"]+'" target="_blank" rel="noopener noreferrer">'+data[i]["Link_str"]+'</a>';
+          }
+          else{
+            var html = data[i]["Name"]+'<br>暂无视频';
+          }
+          if(data[i]["Link2"] != ''){
+            html+='<br><a href="'+data[i]["Link2"]+'" target="_blank" rel="noopener noreferrer">'+data[i]["Link_str2"]+'</a>';
+          }
+          var cord_str = data[i]["Cord"].slice(1,-1)
+          var cord_str_list = cord_str.split(',')
+          var cord = [Number(cord_str_list[0]),Number(cord_str_list[1])]
+          L.marker(cord, {icon: red_dot,riseOnHover: true}).addTo(group).bindPopup(html);
+        }
+        console.log("成功加载了"+data.length+"个点");
+      }
+
+      //json读取
+      //世界尽头
+      var url1 = "./locs/WorldsEdge.json";
+      var request1 = new XMLHttpRequest();
+      request1.open("get", url1);
+      request1.send(null);
+      request1.onload = function () {
+          if (request1.status == 200) {
+              var data = JSON.parse(request1.responseText);
+              addDot2Group(data,group_WorldsEdge);
+          }
+      }
+      //奥林匹斯
+      var url2 = "./locs/Olympus.json";
+      var request2 = new XMLHttpRequest();
+      request2.open("get", url2);
+      request2.send(null);
+      request2.onload = function () {
+          if (request2.status == 200) {
+              var data = JSON.parse(request2.responseText);
+              addDot2Group(data,group_Olympus);
+          }
+      }
+      //诸王峡谷
+      var url3 = "./locs/KingsCanyon.json";
+      var request3 = new XMLHttpRequest();
+      request3.open("get", url3);
+      request3.send(null);
+      request3.onload = function () {
+          if (request3.status == 200) {
+              var data = JSON.parse(request3.responseText);
+              addDot2Group(data,group_KingsCanyon);
+          }
+      }
+      //地图加载
+      const map = L.map('map',{
+        center:[0.0, 0.0],
+        zoom: 0,
+        minZoom: -1,
+        crs: L.CRS.Simple,
+        layers:[group_WorldsEdge]
+      });
+      map.fitBounds(bounds);
+      //图层组
+      var baseMaps = {
+        "世界尽头": group_WorldsEdge,
+        "奥林匹斯": group_Olympus,
+        "诸王峡谷": group_KingsCanyon
+      };    
+      var overlayMaps = {
+      };
+      //图层控件
+      var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+    </script>
+  </body>
+</html>
