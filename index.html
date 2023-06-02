@@ -37,13 +37,31 @@
       const group_WorldsEdge = L.layerGroup();
       const group_Olympus = L.layerGroup();
       const group_KingsCanyon = L.layerGroup();
+      const ring_WorldsEdge = L.layerGroup();
+      const ring_Olympus = L.layerGroup();
+      const ring_KingsCanyon = L.layerGroup();
+      const dotgroup_WorldsEdge = L.layerGroup();
+      const dotgroup_Olympus = L.layerGroup();
+      const dotgroup_KingsCanyon = L.layerGroup();
+      
+      var dotgroup = L.layerGroup();
+      var ringgroup = L.layerGroup();
       const bounds = [[0, 0], [1000, 1000]];
+
+      const ring_Opacity_green = 0.2;
+      const ring_Opacity_red = 0.3;
       //世界尽头
 	    map_WorldsEdge = L.imageOverlay('./images/maps/世界尽头.jpg', bounds).addTo(group_WorldsEdge);
+      green_WorldsEdge = L.imageOverlay('./images/rings/WorldsEdge/green.png', bounds).addTo(ring_WorldsEdge).setOpacity(ring_Opacity_green);
+      red_WorldsEdge = L.imageOverlay('./images/rings/WorldsEdge/red.png', bounds).addTo(ring_WorldsEdge).setOpacity(ring_Opacity_red);
       //奥林匹斯
 	    map_Olympus = L.imageOverlay('./images/maps/奥林匹斯.jpg', bounds).addTo(group_Olympus);
+      green_Olympus = L.imageOverlay('./images/rings/Olympus/green.png', bounds).addTo(ring_Olympus).setOpacity(ring_Opacity_green);
+      red_Olympus = L.imageOverlay('./images/rings/Olympus/red.png', bounds).addTo(ring_Olympus).setOpacity(ring_Opacity_red);
       //诸王峡谷
 	    map_KingsCanyon = L.imageOverlay('./images/maps/诸王峡谷.jpg', bounds).addTo(group_KingsCanyon);
+      green_KingsCanyon = L.imageOverlay('./images/rings/KingsCanyon/green.png', bounds).addTo(ring_KingsCanyon).setOpacity(ring_Opacity_green);
+      red_KingsCanyon = L.imageOverlay('./images/rings/KingsCanyon/red.png', bounds).addTo(ring_KingsCanyon).setOpacity(ring_Opacity_red);
 
       //鼠标操作     
       map_WorldsEdge.on('click', e=>{
@@ -93,7 +111,6 @@
         }
         console.log("成功加载了"+data.length+"个点");
       }
-
       //json读取
       //世界尽头
       var url1 = "./locs/WorldsEdge.json";
@@ -103,7 +120,7 @@
       request1.onload = function () {
           if (request1.status == 200) {
               var data = JSON.parse(request1.responseText);
-              addDot2Group(data,group_WorldsEdge);
+              addDot2Group(data,dotgroup_WorldsEdge);
           }
       }
       //奥林匹斯
@@ -114,7 +131,7 @@
       request2.onload = function () {
           if (request2.status == 200) {
               var data = JSON.parse(request2.responseText);
-              addDot2Group(data,group_Olympus);
+              addDot2Group(data,dotgroup_Olympus);
           }
       }
       //诸王峡谷
@@ -125,17 +142,21 @@
       request3.onload = function () {
           if (request3.status == 200) {
               var data = JSON.parse(request3.responseText);
-              addDot2Group(data,group_KingsCanyon);
+              addDot2Group(data,dotgroup_KingsCanyon);
           }
       }
       //地图加载
+      dotgroup = dotgroup_WorldsEdge;
+      ringgroup = ring_WorldsEdge;
       const map = L.map('map',{
         center:[0.0, 0.0],
         zoom: 0,
         minZoom: -1,
         crs: L.CRS.Simple,
-        layers:[group_WorldsEdge]
+        layers:[group_WorldsEdge],
+        attributionControl: false
       });
+      map.addLayer(dotgroup);
       map.fitBounds(bounds);
       //图层组
       var baseMaps = {
@@ -144,9 +165,50 @@
         "诸王峡谷": group_KingsCanyon
       };    
       var overlayMaps = {
+        //"大佐点": dotgroup,
+        //"缩圈范围": ringgroup
       };
-      //图层控件
-      var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+      //控件
+      var layerControl = L.control.layers(baseMaps, overlayMaps,{collapsed:false}).addTo(map);
+      layerControl.addOverlay(dotgroup, "大佐点");
+      layerControl.addOverlay(ringgroup, "缩圈范围");
+      //events
+      group_WorldsEdge.on('add',(e)=>{
+        console.log('切换至世界尽头');
+        layerControl.removeLayer(dotgroup, "大佐点");
+        layerControl.removeLayer(ringgroup, "缩圈范围");
+        map.removeLayer(dotgroup);
+        map.removeLayer(ringgroup);
+        dotgroup = dotgroup_WorldsEdge;
+        ringgroup = ring_WorldsEdge;
+        map.addLayer(dotgroup);
+        layerControl.addOverlay(dotgroup, "大佐点");
+        layerControl.addOverlay(ringgroup, "缩圈范围");
+      })
+      group_Olympus.on('add',(e)=>{
+        console.log('切换至奥林匹斯');
+        layerControl.removeLayer(dotgroup, "大佐点");
+        layerControl.removeLayer(ringgroup, "缩圈范围");
+        map.removeLayer(dotgroup);
+        map.removeLayer(ringgroup);
+        dotgroup = dotgroup_Olympus;
+        ringgroup = ring_Olympus;
+        map.addLayer(dotgroup);
+        layerControl.addOverlay(dotgroup, "大佐点");
+        layerControl.addOverlay(ringgroup, "缩圈范围");
+      })
+      group_KingsCanyon.on('add',(e)=>{
+        console.log('切换至诸王峡谷');
+        layerControl.removeLayer(dotgroup, "大佐点");
+        layerControl.removeLayer(ringgroup, "缩圈范围");
+        map.removeLayer(dotgroup);
+        map.removeLayer(ringgroup);
+        dotgroup = dotgroup_KingsCanyon;
+        ringgroup = ring_KingsCanyon;
+        map.addLayer(dotgroup);
+        layerControl.addOverlay(dotgroup, "大佐点");
+        layerControl.addOverlay(ringgroup, "缩圈范围");
+      })
     </script>
   </body>
 </html>
