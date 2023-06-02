@@ -62,27 +62,6 @@
 	    map_KingsCanyon = L.imageOverlay('./images/maps/诸王峡谷.jpg', bounds).addTo(group_KingsCanyon);
       green_KingsCanyon = L.imageOverlay('./images/rings/KingsCanyon/green.png', bounds).addTo(ring_KingsCanyon).setOpacity(ring_Opacity_green);
       red_KingsCanyon = L.imageOverlay('./images/rings/KingsCanyon/red.png', bounds).addTo(ring_KingsCanyon).setOpacity(ring_Opacity_red);
-
-      //鼠标操作     
-      map_WorldsEdge.on('click', e=>{
-        var lat = e.latlng.lat;
-        var lng = e.latlng.lng;
-        var string_latlng = '[' + lat + ','+ lng + ']';
-        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_WorldsEdge);
-      });         
-      map_Olympus.on('click', e=>{
-        var lat = e.latlng.lat;
-        var lng = e.latlng.lng;
-        var string_latlng = '[' + lat + ','+ lng + ']';
-        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_Olympus);
-      });
-      map_KingsCanyon.on('click', e=>{
-        var lat = e.latlng.lat;
-        var lng = e.latlng.lng;
-        var string_latlng = '[' + lat + ','+ lng + ']';
-        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map_KingsCanyon);
-      });
-      
       //坐标点
       const dotIcon = L.Icon.extend({
         options:{
@@ -173,6 +152,12 @@
       layerControl.addOverlay(dotgroup, "大佐点");
       layerControl.addOverlay(ringgroup, "缩圈范围");
       //events
+      map.on('click', e=>{
+        var lat = e.latlng.lat;
+        var lng = e.latlng.lng;
+        var string_latlng = '[' + lat + ','+ lng + ']';
+        L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map);
+      });
       group_WorldsEdge.on('add',(e)=>{
         console.log('切换至世界尽头');
         layerControl.removeLayer(dotgroup, "大佐点");
