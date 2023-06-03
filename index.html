@@ -165,7 +165,7 @@
       });
       var flag_dot = true;
       var flag_ring = false;
-      group_WorldsEdge.on('mouseup',(e)=>{
+      group_WorldsEdge.on('add',(e)=>{
         console.log('切换至世界尽头');
         layerControl.removeLayer(dotgroup, "大佐点");
         layerControl.removeLayer(ringgroup, "缩圈范围");
