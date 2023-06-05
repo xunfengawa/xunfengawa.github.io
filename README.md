@@ -21,6 +21,7 @@
 - Bilibili up主：[**@P0Polaris_阿赫**](https://space.bilibili.com/12597648)  
 - Bilibili up主：[**@迷fu啊**](https://space.bilibili.com/255938263)  
 - Bilibili up主：[**@I_MISS_AONO**](https://space.bilibili.com/475671668)  
+- Youtuber：[**RossTheeSquirrel**](https://www.youtube.com/@RossTheeSquirrel)
 
 ### 散装大佐点：
 - Bilibili up主：[**@nik1ous**](https://space.bilibili.com/1714733409)  
