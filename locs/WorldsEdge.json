@@ -1087,5 +1087,86 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "全英雄"
+    },
+    {
+        "Name": "房内储藏室",
+        "Coord": "1770.242,2521.366",
+        "Link": "https://youtu.be/YhJInKAwALw?t=64",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全英雄"
+    },
+    {
+        "Name": "锅炉虹吸草丛",
+        "Coord": "1419.500,3022.500",
+        "Link": "https://youtu.be/YhJInKAwALw?t=101",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "游轮终点站口石缝",
+        "Coord": "1476.040,829.156",
+        "Link": "https://youtu.be/YhJInKAwALw?t=109",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全英雄"
+    },
+    {
+        "Name": "震中冰缝2",
+        "Coord": "2870.000,2641.000",
+        "Link": "https://youtu.be/YhJInKAwALw?t=118",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "树木收割机山壁",
+        "Coord": "1131.371,1704.834",
+        "Link": "https://youtu.be/YhJInKAwALw?t=165",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全英雄"
+    },
+    {
+        "Name": "穹顶后悬崖",
+        "Coord": "478.001,3323.999",
+        "Link": "https://youtu.be/YhJInKAwALw?t=194",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全英雄"
+    },
+    {
+        "Name": "天钩空调外机",
+        "Coord": "3297.592,1750.089",
+        "Link": "https://youtu.be/YhJInKAwALw?t=211",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "震中小洞",
+        "Coord": "3037.024,2648.115",
+        "Link": "https://youtu.be/YhJInKAwALw?t=228",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "地图外与世隔绝(一去不返)",
+        "Coord": "1616.500,2093.500",
+        "Link": "https://youtu.be/rJvRhFary1s?t=79",
+        "Link_str": "Youtube",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
     }
 ]
