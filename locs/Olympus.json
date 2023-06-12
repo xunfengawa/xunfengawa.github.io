@@ -1006,5 +1006,23 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡"
+    },
+    {
+        "Name": "地图外与世隔绝(一去不返)",
+        "Coord": "1616.500,2093.500",
+        "Link": "https://www.bilibili.com/video/BV1go4y1J7GM?t=34.5",
+        "Link_str": "Bilibili",
+        "Link2": "https://youtu.be/rJvRhFary1s?t=79",
+        "Link_str2": "Youtube",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "不动产斜坡墙里",
+        "Coord": "1827.000,1190.496",
+        "Link": "https://www.bilibili.com/video/BV1Ms4y1y7cA?t=33.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
     }
 ]

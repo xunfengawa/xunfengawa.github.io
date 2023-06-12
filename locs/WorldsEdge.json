@@ -1,6 +1,6 @@
 ﻿[
     {
-        "Name": "隧道口1(多点)",
+        "Name": "山崩隧道南出口1",
         "Coord": "1985.956,1663.564",
         "Link": "https://www.bilibili.com/video/BV1SV4y167TZ?t=7.8",
         "Link_str": "Bilibili",
@@ -10,7 +10,7 @@
         "": ""
     },
     {
-        "Name": "隧道口2",
+        "Name": "山崩隧道南出口2",
         "Coord": "1939.14,1671.544",
         "Link": "https://www.bilibili.com/video/BV1Dm4y187qG?t=178.1",
         "Link_str": "Bilibili",
@@ -20,7 +20,7 @@
         "": ""
     },
     {
-        "Name": "隧道口3",
+        "Name": "山崩隧道南出口3",
         "Coord": "1910.944,1753.472",
         "Link": "https://www.bilibili.com/video/BV1Dm4y187qG?t=190.7",
         "Link_str": "Bilibili",
@@ -461,7 +461,7 @@
     },
     {
         "Name": "锅炉3",
-        "Coord": "1827.952,3109.008",
+        "Coord": "1818.000,3137.420",
         "Link": "https://www.bilibili.com/video/BV1SV4y167TZ?t=663.5",
         "Link_str": "Bilibili",
         "Link2": "",
@@ -1282,20 +1282,10 @@
     {
         "Name": "震中小洞",
         "Coord": "3037.024,2648.115",
-        "Link": "https://youtu.be/YhJInKAwALw?t=228",
-        "Link_str": "Youtube",
-        "Link2": "",
-        "Link_str2": "",
-        "Legend": "",
-        "": ""
-    },
-    {
-        "Name": "地图外与世隔绝(一去不返)",
-        "Coord": "1616.500,2093.500",
-        "Link": "https://youtu.be/rJvRhFary1s?t=79",
-        "Link_str": "Youtube",
-        "Link2": "",
-        "Link_str2": "",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=257.5",
+        "Link_str": "Bilibili",
+        "Link2": "https://youtu.be/YhJInKAwALw?t=228",
+        "Link_str2": "Youtube",
         "Legend": "瓦鸡",
         "": ""
     },
@@ -1347,7 +1337,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "?"
+        "": ""
     },
     {
         "Name": "工作台终点站口5",
@@ -1357,7 +1347,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "?"
+        "": ""
     },
     {
         "Name": "工作台终点站口6",
@@ -1367,7 +1357,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "",
-        "": "?"
+        "": ""
     },
     {
         "Name": "工作台终点站口7",
@@ -1377,7 +1367,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "?"
+        "": ""
     },
     {
         "Name": "叠加隧道口山尖",
@@ -1477,7 +1467,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "收割机北山2",
@@ -1487,7 +1477,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "收割机北山3",
@@ -1497,7 +1487,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "收割机北山4",
@@ -1507,7 +1497,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "倒计时东侧山壁2",
@@ -1517,7 +1507,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "天钩东侧山壁1",
@@ -1527,7 +1517,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "天钩东侧山壁2",
@@ -1537,7 +1527,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "锅炉外旗帜后2",
@@ -1557,7 +1547,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "三角屋顶房货架",
@@ -1567,7 +1557,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "全传奇",
-        "": "房间内"
+        "": ""
     },
     {
         "Name": "游轮终点站口4",
@@ -1577,7 +1567,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "游轮终点站口5",
@@ -1587,7 +1577,7 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
     },
     {
         "Name": "游轮终点站口6",
@@ -1597,6 +1587,226 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
-        "": "山"
+        "": ""
+    },
+    {
+        "Name": "主播楼柜子上",
+        "Coord": "2421.000,2544.203",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=37.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "博物馆旁住宅灯",
+        "Coord": "2591.546,2186.501",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=46.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "天钩屋檐",
+        "Coord": "3314.500,1766.446",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=60.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "天钩高楼管道",
+        "Coord": "3307.315,1729.223",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=76.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "带储藏室餐厅",
+        "Coord": "1722.866,2526.799",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=83.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "车库楼窗沿",
+        "Coord": "2172.939,3066.700",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=114.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "厕所楼风扇",
+        "Coord": "2609.750,3560.753",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=121.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "厕所楼管道",
+        "Coord": "2601.250,3575.994",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=129.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "俯瞰点铁路",
+        "Coord": "2628.000,3276.414",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=247.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "震中管道",
+        "Coord": "3191.000,2645.026",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=271.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "震中小洞2",
+        "Coord": "3086.698,2650.250",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=280.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "震中管道2",
+        "Coord": "2996.719,2722.665",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=300.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "侦察营路灯",
+        "Coord": "3463.000,2377.893",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=313.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "试炼西侧帆布",
+        "Coord": "3257.000,808.602",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=322.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": "机器人？"
+    },
+    {
+        "Name": "试炼南侧高点",
+        "Coord": "3089.416,912.145",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=334.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "终点站北侧山体",
+        "Coord": "1360.108,1063.020",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=349.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "?",
+        "": ""
+    },
+    {
+        "Name": "终点站东侧管道",
+        "Coord": "1156.500,1463.445",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=358.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": "机器人？"
+    },
+    {
+        "Name": "收割机西侧山体",
+        "Coord": "1458.761,1609.128",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=370.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "山崩隧道南出口4",
+        "Coord": "1850.145,1669.846",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=386.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "山崩隧道南出口5",
+        "Coord": "1976.717,1722.848",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=393.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "山崩隧道南出口6",
+        "Coord": "1988.500,1725.858",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=399.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "改装店西南山体",
+        "Coord": "1087.500,3116.451",
+        "Link": "https://www.bilibili.com/video/BV15u411Y7Sv?t=412.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
     }
 ]
