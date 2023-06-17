@@ -1076,5 +1076,25 @@
         "Legend": "全传奇",
         "Legend?": "",
         "Level": "隐蔽"
+    },
+    {
+        "Name": "实验室传送器框",
+        "Coord": "2415.830,3344.615",
+        "Link": "https://www.bilibili.com/video/BV1Yz4y1e74G?t=31.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "亡灵",
+        "Legend?": "",
+        "Level": ""
+    },
+    {
+        "Name": "钻机铁架下",
+        "Coord": "3255.696,3826.296",
+        "Link": "https://www.bilibili.com/video/BV1gh4y197nh?t=37.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
     }
 ]

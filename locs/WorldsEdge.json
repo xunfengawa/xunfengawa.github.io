@@ -1260,12 +1260,12 @@
         "": ""
     },
     {
-        "Name": "穹顶后悬崖",
+        "Name": "穹顶后悬崖1",
         "Coord": "478.001,3323.999",
-        "Link": "https://youtu.be/YhJInKAwALw?t=194",
-        "Link_str": "Youtube",
-        "Link2": "",
-        "Link_str2": "",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=333.0",
+        "Link_str": "Bilibili",
+        "Link2": "https://youtu.be/YhJInKAwALw?t=194",
+        "Link_str2": "Youtube",
         "Legend": "全英雄",
         "": ""
     },
@@ -1807,6 +1807,86 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "虹吸锅炉间裂谷",
+        "Coord": "1548.500,2803.482",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=165.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "锅炉南侧山壁",
+        "Coord": "1534.952,3234.816",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=283.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "穹顶后山壁2",
+        "Coord": "460.327,3321.793",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=340.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "穹顶后山壁3",
+        "Coord": "396.250,3319.960",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=356.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "穹顶后山壁4",
+        "Coord": "204.500,3282.212",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=385.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "穹顶后山壁5",
+        "Coord": "87.000,3161.218",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=405.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "穹顶后山壁6",
+        "Coord": "44.500,3090.732",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=419.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "穹顶后山壁7",
+        "Coord": "34.197,3026.065",
+        "Link": "https://www.bilibili.com/video/BV1yP411B7Cb?t=433.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
         "": ""
     }
 ]
