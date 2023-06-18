@@ -31,3 +31,4 @@
 - Bilibili up主：[**@来自武汉的二次元**](https://space.bilibili.com/490299372)  
 - Bilibili up主：[**@霧銘小卒**](https://space.bilibili.com/270850510)  
 - Bilibili up主：[**好的早安_**](https://space.bilibili.com/503995481)
+- Bilibili up主：[**莫桑比克在这里**](https://space.bilibili.com/361380491)

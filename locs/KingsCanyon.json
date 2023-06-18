@@ -1095,6 +1095,17 @@
         "Link_str": "Bilibili",
         "Link2": "",
         "Link_str2": "",
+        "Legend": "全传奇",
+        "Legend?": "",
+        "Level": ""
+    },
+    {
+        "Name": "水电坝洞口上",
+        "Coord": "1655.691,3015.049",
+        "Link": "https://www.bilibili.com/video/BV1Jg4y1K7Yz?t=61.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
         "Legend": "全传奇"
     }
 ]
