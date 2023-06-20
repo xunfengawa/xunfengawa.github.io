@@ -1910,7 +1910,7 @@
         "": ""
     },
     {
-        "Name": "发射台外山",
+        "Name": "发射台外山1",
         "Coord": "712.250,2220.750",
         "Link": "https://www.bilibili.com/video/BV1DP411i7S2?t=353.6",
         "Link_str": "Bilibili",
@@ -1936,6 +1936,87 @@
         "Link_str": "Bilibili",
         "Link2": "",
         "Link_str2": "",
-        "Legend": "全传奇"
+        "Legend": "全传奇",
+        "": ""
+    },
+    {
+        "Name": "发射台墙壁",
+        "Coord": "359.000,2504.500",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=1.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台山壁1",
+        "Coord": "328.500,2158.000",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=27.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台山壁2",
+        "Coord": "335.000,2157.000",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=55.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台山壁3",
+        "Coord": "510.000,2127.500",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=87.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台外山2",
+        "Coord": "681.000,2195.500",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=129.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台外山3",
+        "Coord": "675.500,2189.500",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=146.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台外山4",
+        "Coord": "684.500,2208.000",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=168.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "发射台外山5",
+        "Coord": "724.500,2223.000",
+        "Link": "https://www.bilibili.com/video/BV1c14y1S7B1?t=206.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
     }
 ]
