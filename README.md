@@ -21,8 +21,8 @@
 - Bilibili up主：[**@P0Polaris_阿赫**](https://space.bilibili.com/12597648)  
 - Bilibili up主：[**@迷fu啊**](https://space.bilibili.com/255938263)  
 - Bilibili up主：[**@I_MISS_AONO**](https://space.bilibili.com/475671668)  
-- Youtuber：[**RossTheeSquirrel**](https://www.youtube.com/@RossTheeSquirrel)  
-- Bilibili up主：[**摩达的海角**](https://space.bilibili.com/26566241)  
+- Youtuber：[**@RossTheeSquirrel**](https://www.youtube.com/@RossTheeSquirrel)  
+- Bilibili up主：[**@摩达的海角**](https://space.bilibili.com/26566241)  
 
 ### 散装大佐点：
 - Bilibili up主：[**@nik1ous**](https://space.bilibili.com/1714733409)  
@@ -31,7 +31,7 @@
 - Bilibili up主：[**@SongZhi_**](https://space.bilibili.com/23782838)  
 - Bilibili up主：[**@来自武汉的二次元**](https://space.bilibili.com/490299372)  
 - Bilibili up主：[**@霧銘小卒**](https://space.bilibili.com/270850510)  
-- Bilibili up主：[**好的早安_**](https://space.bilibili.com/503995481)  
-- Bilibili up主：[**莫桑比克在这里**](https://space.bilibili.com/361380491)  
-- Bilibili up主：[**奇怪的夜間飛行**](https://space.bilibili.com/760067)  
-- Bilibili up主：[**头像不会动的屑**](https://space.bilibili.com/150983209)  
+- Bilibili up主：[**@好的早安_**](https://space.bilibili.com/503995481)  
+- Bilibili up主：[**@莫桑比克在这里**](https://space.bilibili.com/361380491)  
+- Bilibili up主：[**@奇怪的夜間飛行**](https://space.bilibili.com/760067)  
+- Bilibili up主：[**@头像不会动的屑**](https://space.bilibili.com/150983209)  
