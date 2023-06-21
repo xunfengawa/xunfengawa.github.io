@@ -6,23 +6,39 @@
     <title>Apex S17大佐点互动地图</title>
     <link rel="icon" href="./images/icons/Rat_master_x128.ico">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="index.css">
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-      }
-      .leaflet-container {
-        width: 100vw;
-        height: 100vh;
-        max-width: 100%;
-        max-height: 100%;
-      }
-    </style>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
   </head>
   <body>
-    <div id='map'></div>
+    <div class="sidebar">
+      <button id="sideopenbutton">&lt;</button>
+      <div id="sidebarbox">
+        <div id="show-name"><h1>Apex 17赛季<br>大佐点互动地图</h1></div>
+        <div id="show-coord"><h2>作者:xunfeng  <a href="https://space.bilibili.com/290304729" target="_blank" rel="noopener noreferrer">B站主页</a></h2></div>
+        <div id="show-link1"><h3>发布视频:</h3></div>
+        <div id="show-link2"><iframe src="//player.bilibili.com/player.html?aid=401614022&bvid=BV1So4y1T7BJ&cid=1142752817&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
+        <div id="show-img"></div>
+      </div>
+    </div>
+    <div class="map" id='map'></div>
+    <script>
+      $("#sideopenbutton").attr("open1",0);
+      
+      $("#sideopenbutton").click(function (e){
+          e.stopPropagation();
+          if($("#sideopenbutton").attr("open1")==0){
+              open();
+          }else{
+              close();
+          }
+      });
+      
+      $(".sidebar").click(function () {
+          event.stopPropagation();
+      });
+    </script>
+    
     <script>
       var _hmt = _hmt || [];
       (function() {
@@ -35,15 +51,23 @@
     
     <script>
       //组
-      const group_WorldsEdge = L.layerGroup();
-      const group_Olympus = L.layerGroup();
-      const group_KingsCanyon = L.layerGroup();
-      const ring_WorldsEdge = L.layerGroup();
-      const ring_Olympus = L.layerGroup();
-      const ring_KingsCanyon = L.layerGroup();
-      const dotgroup_WorldsEdge = L.layerGroup();
-      const dotgroup_Olympus = L.layerGroup();
-      const dotgroup_KingsCanyon = L.layerGroup();
+      var group_WorldsEdge = L.layerGroup();
+      var group_Olympus = L.layerGroup();
+      var group_KingsCanyon = L.layerGroup();
+      var group_StormPoint = L.layerGroup();
+      var group_BrokenMoon = L.layerGroup();
+
+      var ring_WorldsEdge = L.layerGroup();
+      var ring_Olympus = L.layerGroup();
+      var ring_KingsCanyon = L.layerGroup();
+      var ring_StormPoint = L.layerGroup();
+      var ring_BrokenMoon = L.layerGroup();
+
+      var dotgroup_WorldsEdge = L.layerGroup();
+      var dotgroup_Olympus = L.layerGroup();
+      var dotgroup_KingsCanyon = L.layerGroup();
+      var dotgroup_StormPoint = L.layerGroup();
+      var dotgroup_BrokenMoon = L.layerGroup();
       
       var dotgroup = L.layerGroup();
       var ringgroup = L.layerGroup();
@@ -51,6 +75,8 @@
 
       const ring_Opacity_green = 0.2;
       const ring_Opacity_red = 0.3;
+
+      var data1 = {}, data2 = {}, data3 = {};
       //世界尽头
 	    map_WorldsEdge = L.imageOverlay('./images/maps/世界尽头.jpg', bounds).addTo(group_WorldsEdge);
       green_WorldsEdge = L.imageOverlay('./images/rings/WorldsEdge/green.png', bounds).addTo(ring_WorldsEdge).setOpacity(ring_Opacity_green);
@@ -63,6 +89,14 @@
 	    map_KingsCanyon = L.imageOverlay('./images/maps/诸王峡谷.jpg', bounds).addTo(group_KingsCanyon);
       green_KingsCanyon = L.imageOverlay('./images/rings/KingsCanyon/green.png', bounds).addTo(ring_KingsCanyon).setOpacity(ring_Opacity_green);
       red_KingsCanyon = L.imageOverlay('./images/rings/KingsCanyon/red.png', bounds).addTo(ring_KingsCanyon).setOpacity(ring_Opacity_red);
+      //风暴点
+	    map_StormPoint = L.imageOverlay('./images/maps/风暴点.jpg', bounds).addTo(group_StormPoint);
+      green_StormPoint = L.imageOverlay('./images/rings/StormPoint/green.png', bounds).addTo(ring_StormPoint).setOpacity(ring_Opacity_green);
+      red_StormPoint = L.imageOverlay('./images/rings/StormPoint/red.png', bounds).addTo(ring_StormPoint).setOpacity(ring_Opacity_red);
+      //残月
+	    map_BrokenMoon = L.imageOverlay('./images/maps/残月.jpg', bounds).addTo(group_BrokenMoon);
+      green_BrokenMoon = L.imageOverlay('./images/rings/BrokenMoon/green.png', bounds).addTo(ring_BrokenMoon).setOpacity(ring_Opacity_green);
+      red_BrokenMoon = L.imageOverlay('./images/rings/BrokenMoon/red.png', bounds).addTo(ring_BrokenMoon).setOpacity(ring_Opacity_red);
       //坐标点
       const dotIcon = L.Icon.extend({
         options:{
@@ -71,9 +105,26 @@
         }
       });
       const red_dot = new dotIcon({iconUrl: './images/icons/red_dot.png'});
+      
+      //打开侧边栏
+      function open() {
+        if($("#sideopenbutton").attr("open1")==0){
+          $("#sideopenbutton").attr("open1",1);
+          $("#sideopenbutton").html(">");
+          $(".sidebar").toggleClass("sidebar-open");
+        }
+      }
+      //关闭侧边栏
+      function close(){
+        if($("#sideopenbutton").attr("open1")==1){
+          $("#sideopenbutton").attr("open1",0);
+          $("#sideopenbutton").html("<");
+          $(".sidebar").toggleClass("sidebar-open");
+        }
+      }
 
       //加点入组函数
-      function addDot2Group(data,group) {
+      function addDot2Group(num,data,group) {
         for(i=0;i<data.length;i++){
           if(data[i]["Link"] != ''){
             var html = data[i]["Name"]+'<br><a href="'+data[i]["Link"]+'" target="_blank" rel="noopener noreferrer">'+data[i]["Link_str"]+'</a>';
@@ -84,10 +135,41 @@
           if(data[i]["Link2"] != ''){
             html+='<br><a href="'+data[i]["Link2"]+'" target="_blank" rel="noopener noreferrer">'+data[i]["Link_str2"]+'</a>';
           }
-          var coord_str = data[i]["Coord"]
-          var coord_str_list = coord_str.split(',')
-          var coord = [Number(coord_str_list[0]),Number(coord_str_list[1])]
-          L.marker(coord, {icon: red_dot,riseOnHover: true}).addTo(group).bindPopup(html);
+          var coord_str = data[i]["Coord"];
+          var coord_str_list = coord_str.split(',');
+          var coord = [Number(coord_str_list[0]),Number(coord_str_list[1])];
+          
+          window['dot_'+num+'_'+i]=L.marker(coord, {
+            icon: red_dot,
+            riseOnHover: true,
+            attribution: num+','+i
+          })
+          .addTo(group)
+          .bindPopup(html,{
+            offset: [0,0],
+            closeOnClick: false
+          }).bindTooltip(html,{
+            direction: 'top',
+            sticky: true
+          })
+          .on('click', e=>{
+            id = e.sourceTarget.getAttribution()
+            var id_list = id.split(',');
+            document.getElementById('show-name').innerHTML = '<h1>'+eval("data"+id_list[0]+'['+id_list[1]+']["Name"]')+'</h1>';
+            document.getElementById('show-coord').innerHTML = '<h2>坐标:<br>('+eval("data"+id_list[0]+'['+id_list[1]+']["Coord"]')+')</h2>';
+            if(eval("data"+id_list[0]+'['+id_list[1]+']["Link"]') != ''){
+              var link = '<br><a href="'+eval("data"+id_list[0]+'['+id_list[1]+']["Link"]')+'" target="_blank" rel="noopener noreferrer">'+eval("data"+id_list[0]+'['+id_list[1]+']["Link_str"]')+'</a>';
+            }
+            else{
+              var link = '<br>暂无视频';
+            }
+            if(eval("data"+id_list[0]+'['+id_list[1]+']["Link"]') != ''){
+              link+='<br><a href="'+eval("data"+id_list[0]+'['+id_list[1]+']["Link2"]')+'" target="_blank" rel="noopener noreferrer">'+eval("data"+id_list[0]+'['+id_list[1]+']["Link_str2"]')+'</a>';
+            }
+            document.getElementById('show-link2').innerHTML = '';
+            document.getElementById('show-link1').innerHTML = '<h3>视频链接:'+link+'</h3>';
+            open();
+          });
         }
         console.log("成功加载了"+data.length+"个点");
       }
@@ -98,10 +180,10 @@
       request1.open("get", url1);
       request1.send(null);
       request1.onload = function () {
-          if (request1.status == 200) {
-              var data = JSON.parse(request1.responseText);
-              addDot2Group(data,dotgroup_WorldsEdge);
-          }
+        if (request1.status == 200) {
+            data1 = JSON.parse(request1.responseText);
+            addDot2Group(1,data1,dotgroup_WorldsEdge);
+        }
       }
       //奥林匹斯
       var url2 = "https://xunfengawa.github.io//locs/Olympus.json";
@@ -109,10 +191,10 @@
       request2.open("get", url2);
       request2.send(null);
       request2.onload = function () {
-          if (request2.status == 200) {
-              var data = JSON.parse(request2.responseText);
-              addDot2Group(data,dotgroup_Olympus);
-          }
+        if (request2.status == 200) {
+            data2 = JSON.parse(request2.responseText);
+            addDot2Group(2,data2,dotgroup_Olympus);
+        }
       }
       //诸王峡谷
       var url3 = "https://xunfengawa.github.io//locs/KingsCanyon.json";
@@ -120,10 +202,32 @@
       request3.open("get", url3);
       request3.send(null);
       request3.onload = function () {
-          if (request3.status == 200) {
-              var data = JSON.parse(request3.responseText);
-              addDot2Group(data,dotgroup_KingsCanyon);
-          }
+        if (request3.status == 200) {
+            data3 = JSON.parse(request3.responseText);
+            addDot2Group(3,data3,dotgroup_KingsCanyon);
+        }
+      }
+      //风暴点
+      var url4 = "https://xunfengawa.github.io//locs/StormPoint.json";
+      var request4 = new XMLHttpRequest();
+      request4.open("get", url4);
+      request4.send(null);
+      request4.onload = function () {
+        if (request4.status == 200) {
+            data4 = JSON.parse(request4.responseText);
+            addDot2Group(4,data4,dotgroup_StormPoint);
+        }
+      }
+      //残月
+      var url5 = "https://xunfengawa.github.io//locs/BrokenMoon.json";
+      var request5 = new XMLHttpRequest();
+      request5.open("get", url5);
+      request5.send(null);
+      request5.onload = function () {
+        if (request5.status == 200) {
+            data5 = JSON.parse(request5.responseText);
+            addDot2Group(5,data5,dotgroup_BrokenMoon);
+        }
       }
       //地图加载
       dotgroup = dotgroup_WorldsEdge;
@@ -145,14 +249,19 @@
       var baseMaps = {
         "世界尽头": group_WorldsEdge,
         "奥林匹斯": group_Olympus,
-        "诸王峡谷": group_KingsCanyon
+        "诸王峡谷": group_KingsCanyon,
+        "风暴点": group_StormPoint,
+        "残月": group_BrokenMoon
       };    
       var overlayMaps = {
         //"大佐点": dotgroup,
         //"缩圈范围": ringgroup
       };
       //控件
-      var layerControl = L.control.layers(baseMaps, overlayMaps,{collapsed:false}).addTo(map);
+      var layerControl = L.control.layers(baseMaps, overlayMaps,{
+        collapsed: false,
+        position: 'topleft'
+      }).addTo(map);
       layerControl.addOverlay(dotgroup, "大佐点");
       layerControl.addOverlay(ringgroup, "缩圈范围");
       //events
@@ -164,6 +273,14 @@
           L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map);
         }
       });
+      
+      dotgroup_WorldsEdge.on('add', e=>{
+        console.log('1')
+          if($("#sideopenbutton").attr("open1")==0){
+              open();
+          }
+      });
+
       var flag_dot = true;
       var flag_ring = false;
       group_WorldsEdge.on('add',(e)=>{
@@ -230,6 +347,56 @@
         }
         dotgroup = dotgroup_KingsCanyon;
         ringgroup = ring_KingsCanyon;
+        if(flag_dot){
+          map.addLayer(dotgroup);
+          flag_dot = false;
+        }
+        if(flag_ring){
+          map.addLayer(ringgroup);
+          flag_ring = false;
+        }
+        layerControl.addOverlay(dotgroup, "大佐点");
+        layerControl.addOverlay(ringgroup, "缩圈范围");
+      })
+      group_StormPoint.on('add',(e)=>{
+        console.log('切换至风暴点');
+        layerControl.removeLayer(dotgroup, "大佐点");
+        layerControl.removeLayer(ringgroup, "缩圈范围");
+        if (map.hasLayer(dotgroup)){
+          flag_dot = true;
+          map.removeLayer(dotgroup);
+        }
+        if (map.hasLayer(ringgroup)){
+          flag_ring = true;
+          map.removeLayer(ringgroup);
+        }
+        dotgroup = dotgroup_StormPoint;
+        ringgroup = ring_StormPoint;
+        if(flag_dot){
+          map.addLayer(dotgroup);
+          flag_dot = false;
+        }
+        if(flag_ring){
+          map.addLayer(ringgroup);
+          flag_ring = false;
+        }
+        layerControl.addOverlay(dotgroup, "大佐点");
+        layerControl.addOverlay(ringgroup, "缩圈范围");
+      })
+      group_BrokenMoon.on('add',(e)=>{
+        console.log('切换至残月');
+        layerControl.removeLayer(dotgroup, "大佐点");
+        layerControl.removeLayer(ringgroup, "缩圈范围");
+        if (map.hasLayer(dotgroup)){
+          flag_dot = true;
+          map.removeLayer(dotgroup);
+        }
+        if (map.hasLayer(ringgroup)){
+          flag_ring = true;
+          map.removeLayer(ringgroup);
+        }
+        dotgroup = dotgroup_BrokenMoon;
+        ringgroup = ring_BrokenMoon;
         if(flag_dot){
           map.addLayer(dotgroup);
           flag_dot = false;
