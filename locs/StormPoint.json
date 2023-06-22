@@ -1,0 +1,244 @@
+[
+    {
+        "Name": "发射台旗帜山",
+        "Coord": "1697.763,3455.631",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=7.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "发射台旁山上草丛",
+        "Coord": "1396.000,2807.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=79.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "发射台旁大树小山洞（右）",
+        "Coord": "1812.000,3149.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=124.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "发射台旁大树小山洞（左）",
+        "Coord": "1803.000,3095.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=165.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "发射台旁连接山洞",
+        "Coord": "1802.500,3049.500",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=192.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "罗芭坐牢点位",
+        "Coord": "2014.000,2974.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=192.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "罗芭"
+    },
+    {
+        "Name": "罗芭钻洞",
+        "Coord": "1912.105,2713.434",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=320.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "罗芭"
+    }, 
+    {
+        "Name": "河道旁树后",
+        "Coord": "2028.000,2660.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=395.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "河道旁山上(难度很高)",
+        "Coord": "1862.000,2985.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=459.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "河道旁山树后",
+        "Coord": "1834.000,2971.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=494.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "河道旁山小草丛",
+        "Coord": "1847.847,3005.204",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=539.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "发射台高架",
+        "Coord": "1624.224,3218.043",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=562.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心山上（难度很高）",
+        "Coord": "2938.000,2515.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=617.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心北部蜘蛛洞",
+        "Coord": "3396.000,2826.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=662.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心北部高点草丛",
+        "Coord": "3523.000,2795.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=689.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "世界最高城",
+        "Coord": "3623.000,2667.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=726.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心山上",
+        "Coord": "2878.500,3005.500",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=770.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心山挂壁",
+        "Coord": "2855.000,3089.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=790.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "风暴捕手山上",
+        "Coord": "2820.000,3419.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=864.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "风暴捕手山上",
+        "Coord": "2401.000,3633.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=900.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "雷霆守望南方山上",
+        "Coord": "2874.500,3684.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=945.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心树后",
+        "Coord": "2791.000,2890.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=989.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心树后",
+        "Coord": "2784.000,2678.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1020.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心山上",
+        "Coord": "2757.009,2647.408",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1047.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "指挥中心山上",
+        "Coord": "2370.399,2861.661",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1081.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "登山缆车旁",
+        "Coord": "2498.915,2528.614",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1081.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "登山缆车旁2",
+        "Coord": "2506.694,2529.321",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1166.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
