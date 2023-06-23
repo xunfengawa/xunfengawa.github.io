@@ -358,4 +358,113 @@
         "Link2": "",
         "Link_str2": "",
         "Legend": ""
+    }, 2047.500,1783.500
+    {
+        "Name": "动物园外围",
+        "Coord": "2047.500,1783.500",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1677.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
     }, 
+    {
+        "Name": "动物园晴雨表连接",
+        "Coord": "1792.500,1582.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1725.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "发射台天线连接",
+        "Coord": "1430.477,2779.637",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1755.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "天然洞穴山顶",
+        "Coord": "1480.682,748.119",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1809.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 1721.000,1364.000
+    {
+        "Name": "晴雨表北部重力大炮",
+        "Coord": "1480.682,748.119",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1910.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "晴雨表竹林",
+        "Coord": "1322.000,1804.000",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2005.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "坠舰点横梁",
+        "Coord": "478.004,2030.811",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2061.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "高点高墙连接平台山上",
+        "Coord": "3944.242,2884.996",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2148.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "高点架子后草丛",
+        "Coord": "3577.960,3191.173",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2236.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "避雷针上",
+        "Coord": "3597.759,3661.399",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2262.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "风暴捕手旁山上",
+        "Coord": "2370.222,2894.188",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2316.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+    {
+        "Name": "检查点水坑草丛",
+        "Coord": "2543.463,1127.835",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2340.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    }, 
+]
