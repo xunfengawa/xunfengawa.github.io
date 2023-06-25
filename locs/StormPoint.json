@@ -489,6 +489,24 @@
         "Name": "磨坊山洞顶",
         "Coord": "2396.000,1012.000",
         "Link": "https://www.bilibili.com/video/BV1GX4y1p76h?t=93.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "大坡石头缝",
+        "Coord": "2170.170,3287.816",
+        "Link": "https://www.bilibili.com/video/BV148411s7Qt?t=78.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "风暴捕手南重力大炮",
+        "Coord": "2372.373,3186.171",
+        "Link": "https://www.bilibili.com/video/BV148411s7Qt?t=132.5",
         "Link_str": "Bilibili"
     }
 ]
