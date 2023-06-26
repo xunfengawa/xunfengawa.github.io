@@ -3,9 +3,591 @@
         "Name": "南北大道旗帜后",
         "Coord": "1911.000,1919.000",
         "Link": "https://www.bilibili.com/video/BV1mz4y1H79r?t=79.6",
+        "Link_str": "Bilibili1",
+        "Link2": "https://www.bilibili.com/video/BV18u4118742?t=431.8",
+        "Link_str2": "Bilibili2",
+        "Legend": ""
+    },
+    {
+        "Name": "阿尔法基地山头1",
+        "Coord": "3151.000,2376.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=9.4",
+        "Link_str": "Bilibili1",
+        "Link2": "https://www.bilibili.com/video/BV18u4118742?t=82.7",
+        "Link_str2": "Bilibili2",
+        "Legend": ""
+    },
+    {
+        "Name": "阿尔法基地山头2",
+        "Coord": "3241.000,2613.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=109.6",
         "Link_str": "Bilibili",
         "Link2": "",
         "Link_str2": "",
         "Legend": ""
+    },
+    {
+        "Name": "备用空气山口(无敌点)",
+        "Coord": "3520.000,2892.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=149.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "备用空气山口小点",
+        "Coord": "3562.000,3007.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=197.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "备用空气山尖花苞",
+        "Coord": "3390.000,3295.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=226.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "北方大道东侧山顶(无敌点)",
+        "Coord": "2351.837,2482.652",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=293.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道东侧山顶(方向键)",
+        "Coord": "1708.370,1921.209",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=396.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道广告牌",
+        "Coord": "1662.408,1912.017",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=473.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "峡谷中央山",
+        "Coord": "1441.084,1708.370",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=511.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道外山壁1",
+        "Coord": "1607.254,2153.847",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=550.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南北大道中间1",
+        "Coord": "2031.000,2052.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=577.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南北大道中间2",
+        "Coord": "2081.000,2119.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=623.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "养殖外山顶小坑",
+        "Coord": "1378.000,1336.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=663.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "养殖外山平台",
+        "Coord": "1445.326,1375.323",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=677.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "养殖外山(无敌点)",
+        "Coord": "1481.389,1426.941",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=693.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道西侧山旗帜",
+        "Coord": "1691.399,1575.434",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=716.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道西侧山1",
+        "Coord": "1729.583,1714.734",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=784.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道西侧山2",
+        "Coord": "1733.826,1814.436",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=809.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷外峡谷草丛",
+        "Coord": "2523.000,1295.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=851.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷外峡谷山壁1(点群)",
+        "Coord": "2502.000,1215.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=865.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷外峡谷山壁2",
+        "Coord": "2572.000,1262.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=954.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷外峡谷山壁3",
+        "Coord": "2538.000,1289.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=973.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道桥边山壁1",
+        "Coord": "2388.000,1449.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1010.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道桥边山壁2",
+        "Coord": "2403.000,1467.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1040.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道西侧建筑上",
+        "Coord": "2081.000,1482.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1077.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道桥边山壁3",
+        "Coord": "2443.000,1749.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1102.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南方大道桥边旗帜后",
+        "Coord": "2332.038,1925.452",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1130.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "养殖山壁1",
+        "Coord": "1007.000,1993.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1175.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "养殖山壁2",
+        "Coord": "851.000,1965.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1206.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "大气站北侧山壁1",
+        "Coord": "977.000,2501.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1239.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "大气站北侧山壁2",
+        "Coord": "1020.000,2772.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1263.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "大气站北侧山壁3",
+        "Coord": "914.000,3007.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1290.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "生态学西侧山壁1",
+        "Coord": "963.000,3224.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1334.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "生态学西侧山壁2",
+        "Coord": "969.000,3150.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1356.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "生态学西侧山壁3",
+        "Coord": "802.000,3161.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1385.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "生态学西侧山壁4",
+        "Coord": "781.000,3207.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1422.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "生态学西侧山壁5",
+        "Coord": "819.000,3258.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1458.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "生态学西侧山壁6",
+        "Coord": "836.861,3253.398",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1508.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "永恒花园北侧旗帜后1",
+        "Coord": "3121.500,3412.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1549.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "永恒花园北侧旗帜后2",
+        "Coord": "3124.000,3428.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1565.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "永恒花园南侧山壁1",
+        "Coord": "2236.000,3338.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1593.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "永恒花园南侧山壁2",
+        "Coord": "2281.500,3227.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1619.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "分歧西侧山壁1",
+        "Coord": "2012.426,3259.055",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1648.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "分歧北侧山壁",
+        "Coord": "2129.099,3382.799",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1684.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "永恒花园西南侧山壁",
+        "Coord": "2480.531,3016.518",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1721.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "永恒花园西侧山壁",
+        "Coord": "2880.000,3126.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1767.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "分歧西侧山壁2",
+        "Coord": "1801.708,3441.489",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1777.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷山顶",
+        "Coord": "2483.369,616.622",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1808.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷一刀上天",
+        "Coord": "2575.288,800.458",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1873.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "艾许"
+    },
+    {
+        "Name": "干涸峡谷桥边山壁1",
+        "Coord": "3022.007,971.018",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1915.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷桥边山壁2",
+        "Coord": "3048.007,936.018",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1934.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "干涸峡谷北侧山壁",
+        "Coord": "3075.504,488.509",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=1968.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "破坏者码头南侧山壁",
+        "Coord": "3285.218,324.562",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2013.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "破坏者码头东侧山壁",
+        "Coord": "3538.362,757.311",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2053.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "核心东侧山壁",
+        "Coord": "3245.620,2042.831",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2096.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "核心北侧山壁",
+        "Coord": "3333.301,1513.209",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2150.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "地形改造器西北山头1",
+        "Coord": "1750.796,2452.246",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2191.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "地形改造器西北山头2",
+        "Coord": "1782.616,2462.853",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2205.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "地形改造器西北山头3",
+        "Coord": "1847.670,2394.971",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2233.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "地形改造器西侧房顶",
+        "Coord": "1498.000,2145.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2262.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "铸造厂东侧爬爬乐山",
+        "Coord": "959.000,970.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2293.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "铸造厂东侧山头坑",
+        "Coord": "972.500,919.500",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2359.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "绳索中继屋内牛头",
+        "Coord": "2997.000,2122.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2376.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "圆筒屋底草丛",
+        "Coord": "2646.500,2395.000",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2416.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "静态阵列南侧山壁",
+        "Coord": "2437.397,2597.910",
+        "Link": "https://www.bilibili.com/video/BV18u4118742?t=2434.3",
+        "Link_str": "Bilibili"
     }
 ]
