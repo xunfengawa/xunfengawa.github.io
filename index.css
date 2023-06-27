@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   .leaflet-container {
     width: 100vw;
@@ -14,6 +15,8 @@ html, body {
     z-index: 1;
     width: 100%;
     height: 100%;
+    top: 0%;
+    left: 0%;
     background: rgb(44, 44, 44);
 }
 
@@ -21,7 +24,7 @@ html, body {
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow-y:auto;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -51,7 +54,7 @@ html, body {
     color: rgb(0, 0, 0);
     padding-top: 4px;
     transition: all 0.3s linear;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer
 }
@@ -84,3 +87,53 @@ html, body {
     float: left;
     transition: all 0.3s linear;
 }
+
+#content2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.newsbar{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    height: 120px;
+    top: 0px;
+    background: none;
+}
+
+#newsopenbutton{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 120px;
+    pointer-events: visible;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-style: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer
+}
+
+#newsbox{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background: rgb(255, 255, 255);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+}
+
+.newsbar-open{
+    visibility: hidden;
+}
+

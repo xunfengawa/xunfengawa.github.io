@@ -12,13 +12,20 @@
   </head>
   <body>
     <div class="sidebar">
-      <button id="sideopenbutton">&lt;</button>
+      <button id="sideopenbutton">◄</button>
       <div id="sidebarbox">
         <div id="show-name"><h1>Apex 17赛季<br>大佐点互动地图</h1></div>
         <div id="show-coord"><h2>作者:xunfeng  <a href="https://space.bilibili.com/290304729" target="_blank" rel="noopener noreferrer">B站主页</a></h2></div>
         <div id="show-link1"><h3>发布视频:</h3></div>
         <div id="show-link2"><iframe src="//player.bilibili.com/player.html?aid=401614022&bvid=BV1So4y1T7BJ&cid=1142752817&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
         <div id="show-img"></div>
+      </div>
+    </div>
+    <div class="newsbar">
+      <button id="newsopenbutton">×</button>
+      <div id="newsbox">
+        <div id="newsline"><h1>通 知</h1></div>
+        <div id="newsline"><h3>网站地址即将更换至：<a href="https://apexratmap.pages.dev" target="_blank" rel="noopener noreferrer">https://apexratmap.pages.dev</a></h3></div>
       </div>
     </div>
     <div class="map" id='map'></div>
@@ -37,9 +44,30 @@
       $(".sidebar").click(function () {
           event.stopPropagation();
       });
-    </script>
-    
-    <script>
+
+      $("#newsopenbutton").attr("open1",1);
+      
+      $("#newsopenbutton").click(function (e){
+          e.stopPropagation();
+          if($("#newsopenbutton").attr("open1")==0){
+              news_open();
+          }else{
+              news_close();
+          }
+      });
+      
+      $(".newsbar").click(function () {
+          event.stopPropagation();
+      });
+
+      var web_url;
+      web_url = window.location.href;
+      console.log(web_url);
+      if(web_url == "https://apexratmap.pages.dev")
+      {
+        news_close();
+      };
+
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
@@ -47,9 +75,7 @@
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
-    </script>
-    
-    <script>
+
       //组
       var group_WorldsEdge = L.layerGroup();
       var group_Olympus = L.layerGroup();
@@ -110,7 +136,7 @@
       function open() {
         if($("#sideopenbutton").attr("open1")==0){
           $("#sideopenbutton").attr("open1",1);
-          $("#sideopenbutton").html(">");
+          $("#sideopenbutton").html("►");
           $(".sidebar").toggleClass("sidebar-open");
         }
       }
@@ -118,8 +144,24 @@
       function close(){
         if($("#sideopenbutton").attr("open1")==1){
           $("#sideopenbutton").attr("open1",0);
-          $("#sideopenbutton").html("<");
+          $("#sideopenbutton").html("◄");
           $(".sidebar").toggleClass("sidebar-open");
+        }
+      }
+      
+      function news_open(){
+        if($("#newsopenbutton").attr("open1")==0){
+          $("#newsopenbutton").attr("open1",1);
+          $("#newsopenbutton").html("×");
+          $(".newsbar").toggleClass("newsbar-open");
+        }
+      }
+
+      function news_close(){
+        if($("#newsopenbutton").attr("open1")==1){
+          $("#newsopenbutton").attr("open1",0);
+          $("#newsopenbutton").html("");
+          $(".newsbar").toggleClass("newsbar-open");
         }
       }
 
