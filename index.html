@@ -102,6 +102,8 @@
       const ring_Opacity_green = 0.2;
       const ring_Opacity_red = 0.3;
 
+      var firstopen = true;
+      
       var data1 = {}, data2 = {}, data3 = {};
       //世界尽头
 	    map_WorldsEdge = L.imageOverlay('./images/maps/世界尽头.jpg', bounds).addTo(group_WorldsEdge);
@@ -275,16 +277,22 @@
       dotgroup = dotgroup_WorldsEdge;
       ringgroup = ring_WorldsEdge;
       const map = L.map('map',{
-        center:[0.0, 0.0],
         minZoom: -2.5,
         maxZoom: 4,
-        zoom: 0,
         zoomSnap: 0.5,
         zoomDelta: 0.5,
         crs: L.CRS.Simple,
         layers:[group_WorldsEdge],
         attributionControl: false
       });
+      map.on('load', e=>{
+        console.log('欢迎使用Apex大佐互动地图')
+          if($("#sideopenbutton").attr("open1")==0 && firstopen){
+              open();
+              firstopen = false;
+          }
+      });
+      map.setView([0.0, 0.0],0);
       map.addLayer(dotgroup);
       map.fitBounds(bounds);
       //图层组
@@ -314,13 +322,6 @@
         if (lat<=4256&&lng<=4256&&lat>=0&&lng>=0){
           L.popup().setLatLng(e.latlng).setContent(string_latlng).openOn(map);
         }
-      });
-      
-      dotgroup_WorldsEdge.on('add', e=>{
-        console.log('1')
-          if($("#sideopenbutton").attr("open1")==0){
-              open();
-          }
       });
 
       var flag_dot = true;
