@@ -588,6 +588,15 @@
         "Name": "静态阵列南侧山壁",
         "Coord": "2437.397,2597.910",
         "Link": "https://www.bilibili.com/video/BV18u4118742?t=2434.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "地形改造器西北树",
+        "Coord": "1833.500,2400.500",
+        "Link": "https://www.bilibili.com/video/BV1bm4y1a7GF?t=3.3",
         "Link_str": "Bilibili"
     }
 ]

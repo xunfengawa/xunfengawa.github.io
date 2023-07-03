@@ -36,3 +36,5 @@
 - Bilibili up主：[**@莫桑比克在这里**](https://space.bilibili.com/361380491)  
 - Bilibili up主：[**@奇怪的夜間飛行**](https://space.bilibili.com/760067)  
 - Bilibili up主：[**@头像不会动的屑**](https://space.bilibili.com/150983209)  
+- Bilibili up主：[**v私300円買份蛋包飯**](https://space.bilibili.com/225318970)  
+- Bilibili up主：[**凉木藤川**](https://space.bilibili.com/1298493798)  

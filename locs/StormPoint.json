@@ -397,7 +397,7 @@
     },
     {
         "Name": "晴雨表北部重力大炮",
-        "Coord": "1712.613,1380.272",
+        "Coord": "1480.682,748.119",
         "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1910.0",
         "Link_str": "Bilibili",
         "Link2": "",
@@ -470,8 +470,8 @@
     {
         "Name": "发射台电线杆",
         "Coord": "1621.000,3191.500",
-        "Link": "https://www.bilibili.com/video/BV1GX4y1p76h?t=20.7",
-        "Link_str": "Bilibili",
+        "Link": "",
+        "Link_str": "暂无视频",
         "Link2": "",
         "Link_str2": "",
         "Legend": "艾许"
@@ -479,8 +479,8 @@
     {
         "Name": "坠舰点电线杆",
         "Coord": "441.942,2030.811",
-        "Link": "https://www.bilibili.com/video/BV1GX4y1p76h?t=64.1",
-        "Link_str": "Bilibili",
+        "Link": "",
+        "Link_str": "暂无视频",
         "Link2": "",
         "Link_str2": "",
         "Legend": "艾许"
@@ -488,8 +488,8 @@
     {
         "Name": "磨坊山洞顶",
         "Coord": "2396.000,1012.000",
-        "Link": "https://www.bilibili.com/video/BV1GX4y1p76h?t=93.5",
-        "Link_str": "Bilibili",
+        "Link": "",
+        "Link_str": "暂无视频",
         "Link2": "",
         "Link_str2": "",
         "Legend": ""
@@ -507,6 +507,26 @@
         "Name": "风暴捕手南重力大炮",
         "Coord": "2372.373,3186.171",
         "Link": "https://www.bilibili.com/video/BV148411s7Qt?t=132.5",
-        "Link_str": "Bilibili"
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "群佐投稿1(待确认)",
+        "Coord": "1496.238,1762.110",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "缆车山壁",
+        "Coord": "2160.918,2679.935",
+        "Link": "https://www.bilibili.com/video/BV1ds4y1z7C7?t=59.3",
+        "Link_str": "Bilibili(瓦鸡)",
+        "Link2": "https://www.bilibili.com/video/BV1ds4y1z7C7?t=146.2",
+        "Link_str2": "Bilibili(机器人)"
     }
 ]
