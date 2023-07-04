@@ -2018,5 +2018,15 @@
         "Link_str2": "",
         "Legend": "瓦鸡",
         "": ""
+    },
+    {
+        "Name": "纪念碑地下室梁上",
+        "Coord": "2622.250,2393.250",
+        "Link": "https://www.bilibili.com/video/BV19z4y1n7BS?t=2.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇",
+        "": ""
     }
 ]

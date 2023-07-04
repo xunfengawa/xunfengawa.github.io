@@ -38,3 +38,7 @@
 - Bilibili up主：[**@头像不会动的屑**](https://space.bilibili.com/150983209)  
 - Bilibili up主：[**v私300円買份蛋包飯**](https://space.bilibili.com/225318970)  
 - Bilibili up主：[**凉木藤川**](https://space.bilibili.com/1298493798)  
+- Twitch Streamer: [**Faide**](https://www.twitch.tv/faide)  
+
+### 搬运工：
+ - Bilibili up主：[**噎着了。。。**](https://space.bilibili.com/1839912)  
