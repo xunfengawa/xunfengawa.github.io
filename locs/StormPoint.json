@@ -45,9 +45,9 @@
         "Legend": ""
     },
     {
-        "Name": "罗芭坐牢点位",
-        "Coord": "2014.000,2974.000",
-        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=192.0",
+        "Name": "罗芭风扇",
+        "Coord": "2035.760,2980.348",
+        "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=219.5",
         "Link_str": "Bilibili",
         "Link2": "",
         "Link_str2": "",
@@ -144,7 +144,7 @@
         "Legend": ""
     },
     {
-        "Name": "指挥中心山上",
+        "Name": "风暴捕手旁山上1",
         "Coord": "2878.500,3005.500",
         "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=770.0",
         "Link_str": "Bilibili",
@@ -369,7 +369,7 @@
         "Legend": ""
     },
     {
-        "Name": "动物园晴雨表连接",
+        "Name": "动物园气压计连接",
         "Coord": "1792.500,1582.000",
         "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1725.0",
         "Link_str": "Bilibili",
@@ -396,8 +396,8 @@
         "Legend": ""
     },
     {
-        "Name": "晴雨表北部重力大炮",
-        "Coord": "1480.682,748.119",
+        "Name": "气压计北部重力大炮",
+        "Coord": "1723.963,1337.912",
         "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=1910.0",
         "Link_str": "Bilibili",
         "Link2": "",
@@ -405,7 +405,7 @@
         "Legend": ""
     },
     {
-        "Name": "晴雨表竹林",
+        "Name": "气压计竹林",
         "Coord": "1322.000,1804.000",
         "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2005.0",
         "Link_str": "Bilibili",
@@ -450,7 +450,7 @@
         "Legend": ""
     },
     {
-        "Name": "风暴捕手旁山上",
+        "Name": "风暴捕手旁山上2",
         "Coord": "2370.222,2894.188",
         "Link": "https://www.bilibili.com/video/BV17X4y1t7Jw?t=2316.0",
         "Link_str": "Bilibili",
@@ -513,7 +513,7 @@
         "Legend": ""
     },
     {
-        "Name": "群佐投稿1(待确认)",
+        "Name": "气压计东北山壁草丛",
         "Coord": "1496.238,1762.110",
         "Link": "",
         "Link_str": "暂无视频",
@@ -527,6 +527,313 @@
         "Link": "https://www.bilibili.com/video/BV1ds4y1z7C7?t=59.3",
         "Link_str": "Bilibili(瓦鸡)",
         "Link2": "https://www.bilibili.com/video/BV1ds4y1z7C7?t=146.2",
-        "Link_str2": "Bilibili(机器人)"
+        "Link_str2": "Bilibili(机器人)",
+        "Legend": ""
+    },
+    {
+        "Name": "动物园外树里(罗芭)",
+        "Coord": "2130.513,1812.913",
+        "Link": "https://www.bilibili.com/video/BV1V14y1R7WK?t=6.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "罗芭"
+    },
+    {
+        "Name": "动物园山洞北侧山壁",
+        "Coord": "2193.445,2019.384",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "动物园东北山凸出石头",
+        "Coord": "1996.162,2172.793",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "发射台西侧山头",
+        "Coord": "1667.004,2840.386",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=11.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "下缆车东侧山壁",
+        "Coord": "2285.723,2684.831",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=55.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "蜘蛛山谷北侧山壁",
+        "Coord": "2453.307,2744.222",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=131.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "风暴捕手旁山上3",
+        "Coord": "2369.000,2880.951",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=171.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "瀑布山壁(全传奇)",
+        "Coord": "2508.000,2237.858",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=197.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "缆车西侧山草丛后",
+        "Coord": "2556.500,2470.407",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=233.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "瀑布旗帜上支撑杆",
+        "Coord": "2725.190,2439.398",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=283.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "瀑布旗帜上树杈",
+        "Coord": "2722.715,2441.932",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=299.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "瀑布蜘蛛山壁",
+        "Coord": "2840.448,2384.668",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=322.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "指挥中心西出口",
+        "Coord": "3127.000,2528.905",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=343.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙东侧山壁草丛",
+        "Coord": "3461.500,2544.920",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=372.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "高墙南侧山壁",
+        "Coord": "3367.500,2141.999",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=400.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙墙缝1",
+        "Coord": "3390.500,2205.986",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=438.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙墙缝2",
+        "Coord": "3414.500,2205.986",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=457.0",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙墙缝3",
+        "Coord": "3782.000,2205.986",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=473.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙墙缝4",
+        "Coord": "3806.000,2205.986",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=473.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙大炮口",
+        "Coord": "3597.500,1996.957",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=509.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "高墙北侧山壁树后",
+        "Coord": "3920.500,2010.411",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=534.1",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "天然洞穴天花板",
+        "Coord": "1342.963,363.104",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=575.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "坠舰北部平原山壁1",
+        "Coord": "956.008,2494.331",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=620.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "坠舰北部平原山壁2",
+        "Coord": "789.131,2501.401",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=650.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "气压计东侧山顶(方向键)",
+        "Coord": "1032.376,1900.478",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=671.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "气压计东侧山顶",
+        "Coord": "1044.000,1915.421",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=699.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "北部平台夹缝",
+        "Coord": "3593.517,1080.277",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=728.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "北部平台外墙1",
+        "Coord": "3634.175,1084.317",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=751.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "北部平台外墙2",
+        "Coord": "3635.236,1121.079",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=766.8",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "检查点西山口山壁",
+        "Coord": "2681.349,842.808",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=789.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "海边山壁",
+        "Coord": "2041.417,3789.969",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=817.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "海边蜘蛛山谷山壁",
+        "Coord": "2124.149,3617.329",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=861.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "海边蜘蛛山谷大树后",
+        "Coord": "2238.700,3656.920",
+        "Link": "https://www.bilibili.com/video/BV1kg4y1A7bd?t=881.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "漏风屋管道缝",
+        "Coord": "2110.500,1306.449",
+        "Link": "https://www.bilibili.com/video/BV1NV4y1h7pj?t=46.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "罗芭"
     }
 ]

@@ -2028,5 +2028,75 @@
         "Link_str2": "",
         "Legend": "全传奇",
         "": ""
+    },
+    {
+        "Name": "天钩楼顶",
+        "Coord": "3126.826,1429.703",
+        "Link": "https://www.bilibili.com/video/BV1ij411d7ML?t=11.9",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "收割机小道管道",
+        "Coord": "1570.000,2342.915",
+        "Link": "https://www.bilibili.com/video/BV1ij411d7ML?t=92.3",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "山崩隧道南出口7",
+        "Coord": "1982.000,1628.904",
+        "Link": "https://www.bilibili.com/video/BV1ij411d7ML?t=164.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "山崩隧道南出口8",
+        "Coord": "1986.500,1635.228",
+        "Link": "https://www.bilibili.com/video/BV1ij411d7ML?t=174.6",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "穹顶6",
+        "Coord": "703.925,2968.736",
+        "Link": "https://www.bilibili.com/video/BV1ij411d7ML?t=229.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡",
+        "": ""
+    },
+    {
+        "Name": "俯瞰点山壁",
+        "Coord": "2789.500,3559.900",
+        "Link": "",
+        "Link_str": "暂无视频",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "",
+        "": ""
+    },
+    {
+        "Name": "幻象游轮桥缝",
+        "Coord": "2326.028,826.607",
+        "Link": "https://www.bilibili.com/video/BV1NV4y1h7pj?t=29.4",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "罗芭",
+        "": ""
     }
 ]

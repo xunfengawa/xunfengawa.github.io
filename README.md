@@ -24,6 +24,7 @@
 - Youtuber：[**@RossTheeSquirrel**](https://www.youtube.com/@RossTheeSquirrel)  
 - Bilibili up主：[**@摩达的海角**](https://space.bilibili.com/26566241)  
 - Bilibili up主：[**黑剑bLkSrd**](https://space.bilibili.com/438598012)  
+- Bilibili up主：[**第陆玩家**](https://space.bilibili.com/13178145)  
 
 ### 散装大佐点：
 - Bilibili up主：[**@nik1ous**](https://space.bilibili.com/1714733409)  
@@ -39,6 +40,8 @@
 - Bilibili up主：[**v私300円買份蛋包飯**](https://space.bilibili.com/225318970)  
 - Bilibili up主：[**凉木藤川**](https://space.bilibili.com/1298493798)  
 - Twitch Streamer: [**Faide**](https://www.twitch.tv/faide)  
+- Bilibili up主：[**FlyBubbles_**](https://space.bilibili.com/325690872)  
+- Bilibili up主：[**恐龍ra**](https://space.bilibili.com/514846197)  
 
 ### 搬运工：
  - Bilibili up主：[**噎着了。。。**](https://space.bilibili.com/1839912)  
