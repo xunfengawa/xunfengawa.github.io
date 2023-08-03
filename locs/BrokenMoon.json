@@ -12,10 +12,10 @@
         "Name": "阿尔法基地山头1",
         "Coord": "3151.000,2376.000",
         "Link": "https://www.bilibili.com/video/BV18u4118742?t=9.4",
-        "Link_str": "Bilibili1",
+        "Link_str": "Bilibili(跳伞塔)",
         "Link2": "https://www.bilibili.com/video/BV18u4118742?t=82.7",
-        "Link_str2": "Bilibili2",
-        "Legend": ""
+        "Link_str2": "Bilibili(瓦鸡直飞)",
+        "Legend": "跳伞塔"
     },
     {
         "Name": "阿尔法基地山头2",
@@ -30,10 +30,10 @@
         "Name": "备用空气山口(无敌点)",
         "Coord": "3520.000,2892.000",
         "Link": "https://www.bilibili.com/video/BV18u4118742?t=149.2",
-        "Link_str": "Bilibili",
-        "Link2": "",
-        "Link_str2": "",
-        "Legend": ""
+        "Link_str": "Bilibili(瓦鸡开大)",
+        "Link2": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=320.0",
+        "Link_str2": "Bilibili(跳伞塔)",
+        "Legend": "跳伞塔"
     },
     {
         "Name": "备用空气山口小点",
@@ -351,7 +351,7 @@
         "Legend": ""
     },
     {
-        "Name": "永恒花园北侧旗帜后1",
+        "Name": "永恒花园北侧旗帜后1(全传奇)",
         "Coord": "3121.500,3412.500",
         "Link": "https://www.bilibili.com/video/BV18u4118742?t=1549.8",
         "Link_str": "Bilibili",
@@ -435,18 +435,18 @@
         "Name": "干涸峡谷山顶",
         "Coord": "2483.369,616.622",
         "Link": "https://www.bilibili.com/video/BV18u4118742?t=1808.9",
-        "Link_str": "Bilibili",
-        "Link2": "",
-        "Link_str2": "",
-        "Legend": ""
+        "Link_str": "Bilibili(瓦鸡开大)",
+        "Link2": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=8.3",
+        "Link_str2": "Bilibili(瓦鸡直飞)",
+        "Legend": "瓦鸡"
     },
     {
         "Name": "干涸峡谷一刀上天",
         "Coord": "2575.288,800.458",
         "Link": "https://www.bilibili.com/video/BV18u4118742?t=1873.6",
-        "Link_str": "Bilibili",
-        "Link2": "",
-        "Link_str2": "",
+        "Link_str": "Bilibili(艾许)",
+        "Link2": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=22.5",
+        "Link_str2": "Bilibili(跳伞)",
         "Legend": "艾许"
     },
     {
@@ -597,6 +597,63 @@
         "Name": "地形改造器西北树",
         "Coord": "1833.500,2400.500",
         "Link": "https://www.bilibili.com/video/BV1bm4y1a7GF?t=3.3",
-        "Link_str": "Bilibili"
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "南北大道中间山顶",
+        "Coord": "2279.535,2040.461",
+        "Link": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=145.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "静态阵列路灯",
+        "Coord": "2559.715,2565.982",
+        "Link": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=183.2",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "核心支架",
+        "Coord": "3045.066,1643.936",
+        "Link": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=198.7",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": ""
+    },
+    {
+        "Name": "阿尔法基地路灯",
+        "Coord": "3453.559,2435.913",
+        "Link": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=296.5",
+        "Link_str": "Bilibili",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
+    },
+    {
+        "Name": "铸铁厂烟囱",
+        "Coord": "538.174,638.469",
+        "Link": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=414.1",
+        "Link_str": "Bilibili(瓦鸡直飞)",
+        "Link2": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=440.0",
+        "Link_str2": "Bilibili(跳伞塔)",
+        "Legend": "全传奇"
+    },
+    {
+        "Name": "残月最高点",
+        "Coord": "245.774,1076.164",
+        "Link": "https://www.bilibili.com/video/BV1Xk4y1g72t?t=461.8",
+        "Link_str": "Bilibili(瓦鸡开大)",
+        "Link2": "",
+        "Link_str2": "",
+        "Legend": "瓦鸡"
     }
 ]
